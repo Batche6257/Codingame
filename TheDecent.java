@@ -16,7 +16,7 @@ class Player {
             int tallest=0;
             int tallestH=0;
             for (int i = 0; i < 8; i++) {
-                int mountainH = in.nextInt(); // represents the height of one mountain, from 9 to 0.
+                int mountainH = in.nextInt(); 
                
                 if(mountainH > tallestH){
                     tallest = i;
@@ -24,7 +24,7 @@ class Player {
                 }
                 
             }
-            System.out.println(tallest); // The number of the mountain to fire on.
+            System.out.println(tallest); 
         }
     }
 }
